@@ -134,6 +134,20 @@ Program ini memungkinkan pengguna untuk menambah, melihat, mencari, dan menghapu
 
 ---
 
+
+Class Utama
+
+App.java → berisi main dan menu interaktif.
+
+BukuService.java → mengelola koleksi publikasi (tambah, hapus, lihat, cari).
+
+Publikasi.java → abstract class dasar.
+
+Buku.java, Majalah.java, Ebook.java → turunan dari Publikasi.
+
+Cetak.java → interface tambahan yang diimplementasikan oleh Buku.
+
+
 ### 2. **Polymorphism**
 - **Overriding**  
   - Method `tampilkanInfo()` di-*override* oleh kelas turunan (`Buku`, `Ebook`, `Majalah`) agar menampilkan info sesuai jenis publikasi.  
@@ -142,7 +156,7 @@ Program ini memungkinkan pengguna untuk menambah, melihat, mencari, dan menghapu
     - `cariPublikasi(String judul)`  
     - `cariPublikasi(int tahun)`
 
-➡️ **Letak:** `Buku.java`, `Ebook.java`, `Majalah.java`, dan `ManajemenKoleksi.java`.
+➡️ **Letak:** Buku.java, Ebook.java, Majalah.java, dan BukuService.java.
 
 ---
 
@@ -153,3 +167,23 @@ Program ini memungkinkan pengguna untuk menambah, melihat, mencari, dan menghapu
 
 
 ## ▶️ Contoh Output Program
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/e3349bb9-33f4-4bac-8aec-1fca51fbbfa4" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/22159179-1632-4e40-b251-1248aebfc8f7" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/caebd4ea-e5da-446c-bcbd-1bc85c67fa7c" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/30855c7b-2a55-4bf6-9c7c-4612288eca54" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1278c09a-7a1f-455d-929d-58dcbdfe5e2b" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/16d5d229-0547-4205-8f63-8cc027ca9f0c" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/440984dd-0911-443b-91bb-04faafbd6b6f" />
+
+
+
+
+
+
+
