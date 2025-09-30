@@ -152,7 +152,7 @@ Cetak.java → interface tambahan yang diimplementasikan oleh Buku.
 - **Overriding**  
   - Method `tampilkanInfo()` di-*override* oleh kelas turunan (`Buku`, `Ebook`, `Majalah`) agar menampilkan info sesuai jenis publikasi.  
 - **Overloading**  
-  - Method `cariPublikasi()` pada `ManajemenKoleksi` memiliki dua versi:  
+  - Method `cariPublikasi()` pada `BukuService` memiliki dua versi:  
     - `cariPublikasi(String judul)`  
     - `cariPublikasi(int tahun)`
 
